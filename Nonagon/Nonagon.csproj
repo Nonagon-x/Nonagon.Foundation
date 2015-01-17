@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{416A413E-FA2F-4547-BD9F-01C759BD7077}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Nonagon</RootNamespace>
@@ -36,8 +34,8 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="ArrayRandomizer.cs" />
-    <Compile Include="Reflection\IDuplicable.cs" />
     <Compile Include="Reflection\IDuplicableExtensions.cs" />
+    <Compile Include="Reflection\IDuplicable.cs" />
     <Compile Include="Text\StringExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -45,4 +43,13 @@
     <Folder Include="Reflection\" />
     <Folder Include="Text\" />
   </ItemGroup>
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <DotNetNamingPolicy DirectoryNamespaceAssociation="PrefixedHierarchical" ResourceNamePolicy="FileFormatDefault" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
 </Project>

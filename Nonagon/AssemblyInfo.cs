@@ -8,8 +8,8 @@ using System.Reflection;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Nonagon Co., Ltd.")]
 [assembly: AssemblyProduct("Nonagon")]
-[assembly: AssemblyCopyright("Copyright © Nonagon Co., Ltd 2013")]
-[assembly: AssemblyTrademark("Nonagon Modular")]
+[assembly: AssemblyCopyright("Copyright © Nonagon Co., Ltd. 2013-2015")]
+[assembly: AssemblyTrademark("Nonagon.NET Common Library")]
 [assembly: AssemblyCulture("")]
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".

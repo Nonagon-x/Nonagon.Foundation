@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Text.RegularExpressions;
 
 namespace Nonagon.Text
@@ -12,7 +12,8 @@ namespace Nonagon.Text
 		public static String Capitalize(this String sentenses)
 		{
 			var s = Regex.Replace(sentenses, @"\b(\w)", m => m.Value.ToUpper());
-			return Regex.Replace(s, @"\s(of|in|by|and)\s", m => m.Value.ToLower(), RegexOptions.IgnoreCase);
+			return Regex.Replace(s, @"\s(of|in|by|and)\s", 
+				m => m.Value.ToLower(), RegexOptions.IgnoreCase);
 		}
 	}
 }
