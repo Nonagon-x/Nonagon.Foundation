@@ -1,4 +1,4 @@
 Nonagon.Foundation
 ==================
 
-The Core Nonagon Framework.
+The Nonagon.NET Common Library.
